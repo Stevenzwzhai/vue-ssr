@@ -5,21 +5,19 @@
 import Vue from 'vue'
 import router from 'router'
 import store from 'store'
-import App from 'App'
+import App from './App.vue'
 
 //这里不会直接挂载，而是通过服务端运行时挂载
 let app = new Vue({
-    template:'<app></app>',
-    base:'/c/',
     components:{
         App
     },
-    router,
+    // router,
     store
 });
 
 export {
     app,
-    router,
+    // router,
     store
 }
