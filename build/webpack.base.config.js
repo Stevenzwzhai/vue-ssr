@@ -1,6 +1,6 @@
 const path = require('path');
 const vueConfig = require('./vue-loader.config');
-
+process.traceDeprecation = true;
 module.exports = {
   devtool: '#source-map',
   entry: {

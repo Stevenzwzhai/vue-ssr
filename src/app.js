@@ -3,7 +3,7 @@
  */
 //首先构建一个vue实例
 import Vue from 'vue'
-import router from 'router'
+// import router from 'router'
 import store from 'store'
 import App from './App.vue'
 
